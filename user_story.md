@@ -1,8 +1,14 @@
-# User Story
+# User Story: User Login Feature
 
 As a customer,  
 I need to log into my account,  
 So that I can access my personal dashboard.
+
+## Details and Assumptions
+- The user already has a registered account  
+- The system has a login page available  
+- Internet connection is required  
+- The dashboard is accessible only after successful login  
 
 ## Acceptance Criteria
 
@@ -20,3 +26,4 @@ Scenario: Empty fields
 Given the user is on the login page  
 When the user submits empty fields  
 Then validation messages are shown  
+
